@@ -20,16 +20,17 @@ class Student:
         return self.school_name
 
 
+# Inheriting the behavior from the Student Class
 class HighSchoolStudent(Student):
 
-    school_name = "Springfield High School"
+    school_name = "Springfield High School"  # Overriding the Class Attribute (school_name)
 
-    def get_school_name(self):
+    def get_school_name(self):  # Overriding the get_school_name Method
         return "This is a High School Student"
 
-    def get_name_capitalize(self):
-        original_value = super().get_name_capitalize()
-        return original_value + " HS"
+    def get_name_capitalize(self):  # Overriding the get_name_capitalze Method
+        original_value = super().get_name_capitalize()  # super(). = To define the Parent(Student) Class
+        return original_value + "-HS"
 
 
 james = HighSchoolStudent("james")
