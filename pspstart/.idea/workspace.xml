@@ -2,8 +2,60 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ca65e7c-a8e8-4d77-b217-7927ac06d4e2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/functions/Analysis-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/functions/Analysis-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/functions/COLLECT-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/functions/EXE-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/functions/EXE-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/functions/PKG-00.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/build/functions/PKG-00.pkg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/functions/PKG-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/functions/PKG-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/functions/PYZ-00.pyz" beforeDir="false" afterPath="$PROJECT_DIR$/build/functions/PYZ-00.pyz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/functions/PYZ-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/functions/PYZ-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/functions/base_library.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/functions/base_library.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/functions/functions.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/functions/functions.exe.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/build/functions/functions.exe.manifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/functions/warn-functions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/functions/warn-functions.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/Analysis-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/COLLECT-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/EXE-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/PKG-00.pkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/PKG-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/PYZ-00.pyz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/PYZ-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/base_library.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/main.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/main.exe.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/warn-main.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/xref-main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/functions/VCRUNTIME140.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/functions/_bz2.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/functions/_ctypes.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/functions/_hashlib.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/functions/_lzma.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/functions/_socket.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/functions/_ssl.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/functions/base_library.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/functions/functions.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/functions/functions.exe.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/functions/pyexpat.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/functions/python35.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/functions/select.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/functions/students.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/functions/unicodedata.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/VCRUNTIME140.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/_bz2.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/_ctypes.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/_hashlib.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/_lzma.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/_socket.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/_ssl.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/base_library.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/main.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/main.exe.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/pyexpat.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/python35.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/select.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main/unicodedata.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.spec" beforeDir="false" afterPath="$PROJECT_DIR$/functions.spec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.spec" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -132,6 +184,11 @@
             <path>
               <item name="pspstart" type="b2602c69:ProjectViewProjectNode" />
               <item name="pspstart" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pspstart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pspstart" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pspstart" type="b2602c69:ProjectViewProjectNode" />
@@ -339,7 +396,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="784" y="0" width="590" height="878" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35920578" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
