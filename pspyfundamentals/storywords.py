@@ -7,3 +7,9 @@ with urlopen('http://sixty-north.com/c/t.txt') as story:
                     story_words.append(word)
 
 print(story_words)
+
+full_str = ""
+for i in story_words:
+    full_str += str(i) + " "
+full_str = full_str[:-1]
+print(full_str)
