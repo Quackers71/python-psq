@@ -12,6 +12,6 @@ def fetch_words():
     for word in story_words:
         print(word)
 
-
+# checks if __name__ is equal to __main__ then executes the function
 if __name__ == '__main__':
     fetch_words()
