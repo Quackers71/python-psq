@@ -23,4 +23,4 @@ def main():
 
 # checks if __name__ is equal to __main__ then executes the function
 if __name__ == '__main__':
-    Main()
+    main()
