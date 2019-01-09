@@ -33,11 +33,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/range.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="508">
               <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/list.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="45" column="43" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -56,6 +65,7 @@
         <option value="$PROJECT_DIR$/tuple.py" />
         <option value="$PROJECT_DIR$/str.py" />
         <option value="$PROJECT_DIR$/range.py" />
+        <option value="$PROJECT_DIR$/list.py" />
       </list>
     </option>
   </component>
@@ -107,7 +117,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.range">
+  <component name="RunManager" selected="Python.list">
+    <configuration name="list" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pspyfundamentals" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\RQarikau.NCSCCOBALTWINDO\Desktop\python-psq\pspyfundamentals\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="range" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pspyfundamentals" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -219,9 +250,11 @@
       <item itemvalue="Python.tuple" />
       <item itemvalue="Python.str" />
       <item itemvalue="Python.range" />
+      <item itemvalue="Python.list" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.list" />
         <item itemvalue="Python.range" />
         <item itemvalue="Python.str" />
         <item itemvalue="Python.tuple" />
@@ -324,6 +357,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="508">
           <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="45" column="43" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
         </state>
       </provider>
     </entry>
