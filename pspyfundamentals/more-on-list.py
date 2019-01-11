@@ -41,6 +41,4 @@ print(a)
 a.insert(2, "destroyed")
 print(a)
 
-' '.join(a)
-print(a)
-
+print(' '.join(a))
