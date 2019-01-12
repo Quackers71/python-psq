@@ -64,4 +64,45 @@ print("j =", j)
 m = set(j)
 print("m = set(j):")
 print("m =", m)
+ret()
+
+# Prt2
+# set algebra
+print("Prt2")
+ret()
+
+blue_eyes = {'Olivia', 'Harry', 'Lily', 'Jack', 'Amelia'}
+blond_hair = {'Harry', 'Jack', 'Amelia', 'Mia', 'Joshua'}
+smell_hcn = {'Harry', 'Amelia'}  # Hydrogen Cyanide (HCN)
+taste_ptc = {'Harry', 'Lily', 'Amelia', 'Lola'}  # Phenylthiocarbamide (PTC)
+o_blood = {'Mia', 'Joshua', 'Lily', 'Olivia'}
+b_blood = {'Amelia', 'Jack'}
+a_blood = {'Harry'}
+ab_blood = {'Joshua', 'Lola'}
+
+print("blue_eyes.union(blond_hair):")
+print(blue_eyes.union(blond_hair))
+ret()
+print("blue_eyes.union(blond_hair) == blond_hair.union(blue_eyes):", blue_eyes.union(blond_hair) == blond_hair.union(blue_eyes))
+ret()
+print("blue_eyes.intersection(blond_hair):")
+print(blue_eyes.intersection(blond_hair))
+ret()
+print("blue_eyes.intersection(blond_hair) == blond_hair.intersection(blue_eyes):", blue_eyes.intersection(blond_hair) == blond_hair.intersection(blue_eyes))
+ret()
+
+print("blond_hair.difference(blue_eyes):")
+print(blond_hair.difference(blue_eyes))
+ret()
+
+print("blond_hair.symmetric_difference(blue_eyes):")
+print(blond_hair.symmetric_difference(blue_eyes))
+
+print("blond_hair.symmetric_difference(blue_eyes) == blue_eyes.symmetric_difference(blond_hair):", blond_hair.symmetric_difference(blue_eyes) == blue_eyes.symmetric_difference(blond_hair))
+ret()
+
+print("smell_hcn.issubset(blond_hair):", smell_hcn.issubset(blond_hair))
+print("taste_ptc.issuperset(smell_hcn):", taste_ptc.issuperset(smell_hcn))
+print("a_blood.isdisjoint(o_blood):", a_blood.isdisjoint(o_blood))
+
 
