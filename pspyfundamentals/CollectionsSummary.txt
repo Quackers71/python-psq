@@ -1,0 +1,36 @@
+Python Collections Summary
+
+* Tuples are immutable sequence types
+    * Literal syntax: optional parentheses around a comma separated list
+    * Single element tuples must use trailing comma
+    * Tuple unpacking - return values and idiomatic swap
+
+* Strings are immutable sequence types of Unicode codepoints
+    * String concatenation is most efficiently performed with join() on an empty separator
+    * The partition() method is a useful and elegant string parsing tool.
+    * The format() method provides a powerful way of replacing placeholders with (stringified)values.
+
+* Ranges represent integer sequences with regular intervals
+    * Ranges are arithmetic progressions
+    * The enumerate() function is often a superior alternative to range()
+
+* List are heterogeneous mutable sequence types
+    * negative indexes work backwards from the end.
+    * Slicing allows us to copy all or part of a list.
+    * The full slice is a common idiom for copying lists, although the copy() method and
+      list() constructor is less obscure.
+    * List (and other collection) copies are shallow copies.
+    * List repetition is shallow.
+
+* Dictionaries map immutable keys to mutable values
+    * Iteration and membership testing is done with respect to the keys
+    * Order is arbitrary
+    * The keys(), values() and items() methods provide views onto different aspects of a
+      dictionary, allowing convenient iteration.
+
+* Sets store an unordered collection of unique elements
+    * Sets support powerful and expressive set algebra operations and predicates.
+
+* Protocols such as iterable, sequence and container characterise the collections
+    * '_is' in common usage is for dummy or superfluous variables
+    * pprint module supports pretty-printing of compound data structures
