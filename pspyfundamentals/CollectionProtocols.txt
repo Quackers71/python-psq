@@ -1,0 +1,38 @@
+Python Collection Protocols
+
+Protocol                Implementing Collections
+----------------------  -----------------------------------------------------
+Container               str, list, range, tuple, bytes, set, dict
+Sized                   str, list, range, tuple, bytes, set, dict
+Iterable                str, list, range, tuple, bytes, set, dict
+Sequence                str, list, range, tuple, bytes
+Mutable Sequence        list
+Mutable Set             set
+Mutable Mapping         dict
+
+Protocols
+* To implement a protocol, objects must support certain operations.
+* Most collections implement container, sized and iterable.
+* All except set and dict are sequences
+
+Container Protocol
+* Membership testing using 'in' and 'not in'
+
+Sized Protocol
+* Determine number of elements with len(s)
+
+Iterable Protocol
+* Can produce an iterator with iter(s)
+    for item in iterable:
+        do_something(item)
+
+Sequence Protocol
+* Retrieve elements by index
+    item = seq[index]
+* Find items by value
+    index = seq.index(item)
+* Count items
+    num = seq.count(item)
+* Produce a reverse sequence
+    r = reversed(seq)
+
