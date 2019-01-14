@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="720c1456-d672-4dab-a22f-3882f713254b" name="Default Changelist" comment="" />
+    <list default="true" id="720c1456-d672-4dab-a22f-3882f713254b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/CollectionProtocols.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CollectionProtocols.txt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,12 +27,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="py" value="859" />
-          <entry key="txt" value="983" />
+          <entry key="txt" value="1107" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="983" />
+          <entry key="PLAIN_TEXT" value="1107" />
           <entry key="Python" value="859" />
         </counts>
       </usages-collector>

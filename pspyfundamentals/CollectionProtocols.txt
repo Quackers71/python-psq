@@ -16,10 +16,10 @@ Protocols
 * All except set and dict are sequences
 
 Container Protocol
-* Membership testing using 'in' and 'not in'
+* Membership testing using 'in' and 'not in' operators
 
 Sized Protocol
-* Determine number of elements with len(s)
+* Determine number of elements with len(s) < built-in function
 
 Iterable Protocol
 * Can produce an iterator with iter(s)
@@ -28,11 +28,11 @@ Iterable Protocol
 
 Sequence Protocol
 * Retrieve elements by index
-    item = seq[index]
+    item = seq[index]           < [integer index]
 * Find items by value
-    index = seq.index(item)
+    index = seq.index(item)     < index() Method
 * Count items
-    num = seq.count(item)
+    num = seq.count(item)       < count() Method
 * Produce a reverse sequence
-    r = reversed(seq)
+    r = reversed(seq)           < reversed() built-in function
 
