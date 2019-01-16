@@ -10,3 +10,67 @@ continuing at some surrounding context or code block.
 * Unhandled exceptions will terminate the program.
 
 * Exception objects contain information about the exceptional event.
+
+Exceptions for programmer errors
+
+* IndentationError
+* SyntaxError
+* NameError
+
+Exceptions are part of the API
+
+* Callers need to know what exceptions to expect, and when
+
+# For root.py use CMD - python root.py
+
+* Use exceptions that users will anticipate
+* Standard exceptions are often the best choice
+
+Exceptions, APIs, and Protocols
+
+* Exceptions are parts of families of related functions
+  referred to at "protocols".
+* Use common or existing exception types when possible
+    IndexError
+    KeyError
+    ValueError
+    TypeError
+    etc...
+  Follow existing usage patterns
+
+    * IndexError - integer index is out of range
+      i.e z = [1, 4, 2]
+          print(z[4])
+    * ValueError - Object is of the right type, but
+      contains an inappropriate value.
+      i.e.  print(int("jim"))
+    * KeyError - Look-up in a mapping fails
+      i.e.  codes = dict(gb=44, us=1, no=47, fr=33,
+            es=34)
+            print(codes['de'])
+
+Avoid protecting against TypeErrors
+    (This is against the grain in Python)
+
+* Use This
+    try:
+        return int(s)
+    except(ValueError, TypeError) as e:
+        print("Conversion error: {}".format(str(e)),
+            file=sys.stderr)
+        raise
+
+* Not This
+    def convert(s):
+        '''Convert to an integer.'''
+        if not isinstance(s, str):
+            raise TypeError("argument must be a string")
+        try:
+            return int(s)
+        except(ValueError, TypeError) as e:
+            print("Conversion error: {}".format(str(e)),
+                file=sys.stderr)
+            raise
+
+* It's usually not worth checking types.
+* This can limit your functions unnecessarily

@@ -1,14 +1,12 @@
-from exceptional import convert
+# from exceptional import convert
+from exceptional import string_log
 
 
 def ret():
     print("\r")
 
 
-print(convert("33"))
-print(type(convert("33")))
 ret()
+# print(convert("fail"))
 
-print("hedgehog", convert("hedgehog"))  # Normally this will produce a Traceback: ValueError
-
-print(convert([4, 5, 6]))
+print(string_log([5, 3, 1]))
