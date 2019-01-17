@@ -74,3 +74,161 @@ Avoid protecting against TypeErrors
 
 * It's usually not worth checking types.
 * This can limit your functions unnecessarily
+
+Dealing with Failures (EAFP vs LBYL)
+
+* Look Before You Leap
+        vs
+* It's Easier to Ask Forgiveness than Permission
+
+* LBYL Version
+    import os
+
+    p = '/path/to/datafile.dat'
+
+    if os.path.exists(p):
+        process_file(p)
+    else:
+        print("No such file as {}".format(p))
+
+-   * This only performs an existence check
+-   * What if file exists but contains Garbage?
+-   * What if it refers to a Directory not a File?
+-   ** Pre-emptive tests require for the last two above
+-   * Race condition - exists between if os.path.exists(p)
+                       and            process_file(p)
+    ** The file could be deleted by another process,
+       between the EXISTS check and the PROCESS FILE
+
+* EAFP Version
+    p = '/path/to/datafile.dat'
+
+    try:
+        process_file(f)
+    except OSError as e:
+        print("Could not process file because {}"\
+            .format(str(e)))
+
+-   **          EAFP + Exceptions = errors are difficult
+                                    to ignore!
+-   * Local vs Non-Local Handling
+-   * Error codes require interspersed, local handling.
+-   * Exceptions allow centralized, non-local handling.
+
+Clean-Up Actions
+
+-   * Resource Cleanup with Finally
+    try... finally - lets you clean up whether an exception
+                     occurs or not.
+
+* Current Version
+import os
+
+def make_at(path, dir_name):
+    original_path = os.getcwd()
+    os.chdir(path)
+    os.mkdir(dir_name)      < If this fails
+    os.chdir(original_path) < Then this won't happen!
+
+* Correct Version - using finally
+import os
+import sys
+
+def make_at(path, dir_name):
+    original_path = os.getcwd()
+    try:
+        os.chdir(path)
+        os.mkdir(dir_name)
+    except OSError as e:
+        print(e, file=sys.stderr)
+        raise
+    finally:
+        os.chdir(original_path) < Runs even if OSError
+                                  is thrown and handled.
+
+-   * finally-block is executed no matter how the
+      try-block exits
+
+Moment of Zen
+* Errors should never pass silently, unless
+  explicitly silenced
+* Errors are like bells
+  And if we make them silent
+  They are of no use
+
+Platform-Specific Code
+* Platform-Specific Modules
+-   * Windows       msvcrt
+-   * Linux / OSX   sys
+                    tty
+                    termios
+
+"""keypress - A module for detecting a single keypress. """
+
+try:
+    import msvcrt
+
+    def getkey():
+        """Wait for a keypress and return a single
+           character string."""
+        return msvcrt.getch()
+
+except ImportError:
+
+    import sys
+    import tty
+    import termios
+
+    def getkey():
+        """Wait for a keypress and return a single
+           character string."""
+        fd = sys.stdin.fileno()
+        original_attributes = termios.tcgattr(fd)
+        try:
+            tty.setraw(sys.stdin.fileno())
+            ch = sys.stdin.read(1)
+        finally:
+            termios.tcsetattr(fd, termios, TCSADRAIN,
+                              original_attributes)
+        return ch
+
+    # If either of the Unix-specific tty or termios are
+    # not found, we allow the ImportError to propagate
+    # from here
+
+Python - Exception Handling - Summary
+
+    * Raising an exception interrupts normal program flow
+      and transfers control to an exception handler
+    * Exception handlers defined using the try... except
+      construct
+    * 'try' blocks define a context for detecting exceptions
+    * Corresponding 'except' blocks handle specific
+      exception types
+    * Python uses exceptions pervasively.
+      - Many built-in language features depend on them.
+    * 'except' blocks can capture an exception, which are
+      often of a standard type.
+    * Programmer errors should not normally be handled.
+    * Exceptional conditions can be signaled using 'raise'.
+    * 'raise' without an argument re-raises the current
+      exception.
+
+    * Generally do not check for TypeErrors.
+    * Exception objects can be converted to strings
+      using str().
+    * A function's exceptions from part of its API.
+      - They should be documented properly.
+    * Prefer to use built-in exception types when
+      possible.
+    * Use the try... finally construct to perform cleanup
+      actions.
+    * May be used in conjunction with 'except' blocks
+
+    * Output of print() can be redirected using the
+      optional 'file' argument.
+    * Use 'and' and 'or' for combinding boolean
+      expressions.
+    * Return codes are too easily ignored.
+    * Platform-specific actions can be implemented using
+      AEFP along with catching ImportErrors.
