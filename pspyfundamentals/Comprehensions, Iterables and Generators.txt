@@ -1,0 +1,14 @@
+Comprehensions, iterables and generators
+
+* Types comprehensions
+    * list comprehensions
+    * set comprehensions
+    * dictionary comprehensions
+-       Style!
+-   * declarative
+-   * functional
+-       * readable
+-       * expressive
+-       * effective
+
+
