@@ -12,3 +12,17 @@ Comprehensions, iterables and generators
 -       * effective
 
 
+* Iteration protocols
+
+* - Iterable protocol
+  - Iterable objects can be passed to the built-in
+    iter() function to get an iterator.
+
+  iterator = iter(iterable)
+
+* - Iterator protocol
+  - Iterator objects can be passed to the built-in
+    next() function to fetch the next item.
+
+  item = next(iterator)
+
