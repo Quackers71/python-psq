@@ -26,3 +26,17 @@ Comprehensions, iterables and generators
 
   item = next(iterator)
 
+Generators in Python (Generator Functions)
+
+* Specify iterable sequences
+* - all generators are iterators
+
+* Are lazy evaluated
+* - the next value in the sequence is computed on demand
+
+* Can model infinite sequences
+* - such as data streams with no definite end
+
+* Are composible into pipelines
+* - for natural stream processing
+
