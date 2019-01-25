@@ -57,3 +57,11 @@ def take(count, iterable):
            counter += 1
            yield item
 
+Laziness and the Infinite
+
+* Just in Time Computation
+* Infinite (or large) sequences
+* sensor readings
+* mathematical series
+* massive files
+
