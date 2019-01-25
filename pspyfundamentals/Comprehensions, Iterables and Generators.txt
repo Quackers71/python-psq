@@ -40,3 +40,20 @@ Generators in Python (Generator Functions)
 * Are composible into pipelines
 * - for natural stream processing
 
+Stateful generators
+* Generators resume execution
+* Can maintain state in local variables
+* Complex control flow
+* Lazy evaluation
+
+e.g.
+
+def take(count, iterable):
+    "Take first count elements"
+    counter = 0
+    for item in iterable:
+        if counter == count:
+            return
+           counter += 1
+           yield item
+
