@@ -3,7 +3,8 @@
 
 class Flight:
 
+    def __init__(self, number):
+        self._number = number
+
     def number(self):
-        return "SN060"
-
-
+        return self._number

@@ -24,3 +24,17 @@ Methods
 * Method - A function defined within a class
 * Instance methods - functions which can be called on objects
 * self - the first argument to all instance methods
+
+Initializers
+
+* __init__() instance method for initializing new objects
+* 'self' s similar to 'this' in C++ or Java.
+- *Why _number?
+    - 1. Avoid name clash with number()
+    - 2. By convention, implementation details start with
+         underscore
+
+Class Invariants
+
+* Truths about an object that endure for its lifetime
+
