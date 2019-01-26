@@ -65,3 +65,13 @@ Laziness and the Infinite
 * mathematical series
 * massive files
 
+Generator comprehensions
+
+* Similar syntax to list comprehensions
+* Create a generator object
+* Concise
+* Lazy evaluation
+
+Iteration Tools "Batteries Included"
+https://docs.python.org/3/library/itertools.html
+
