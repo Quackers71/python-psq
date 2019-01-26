@@ -14,3 +14,13 @@ Classes in Python
 * Classes can make simple solutions overly complex.
   -* "Python lets you find the right balance
       with OOP and Classes."
+
+Defining Classes
+
+* By convention, class names use CamelCase
+
+Methods
+
+* Method - A function defined within a class
+* Instance methods - functions which can be called on objects
+* self - the first argument to all instance methods
