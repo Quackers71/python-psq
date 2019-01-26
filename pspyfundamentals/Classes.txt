@@ -1,0 +1,16 @@
+Classes in Python
+
+* You can get a long way with Python's built-in scalar and
+  'collections' types.
+* But when they're not right for the job, you can use classes
+  to create custom types.
+
+- *Structure and Behavior
+* Classes define the structure and behavior of objects.
+* An object's class controls its initialization.
+
+- *Classes are a Tool
+* Classes make complex problems tractable.
+* Classes can make simple solutions overly complex.
+  -* "Python lets you find the right balance
+      with OOP and Classes."
