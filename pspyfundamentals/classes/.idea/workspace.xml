@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf3ea491-019d-4380-b1bc-ab6173cb8e22" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Classes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Classes.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/airtravel.py" beforeDir="false" afterPath="$PROJECT_DIR$/airtravel.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/airtravel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="374">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -46,8 +45,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/airtravel.py" />
         <option value="$PROJECT_DIR$/Classes.txt" />
+        <option value="$PROJECT_DIR$/airtravel.py" />
       </list>
     </option>
   </component>
@@ -136,7 +135,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.245827" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.094081946" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info active="true" anchor="bottom" id="Python Console" visible="true" weight="0.328877" />
@@ -164,8 +163,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/airtravel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="374">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
