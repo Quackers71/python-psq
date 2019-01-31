@@ -38,3 +38,45 @@ Class Invariants
 
 * Truths about an object that endure for its lifetime
 
+# Use the below in the Python Console with airtravel.py
+
+Python 3.7.1 (v3.7.1:260ec2c36a, Oct 20 2018, 14:05:16) [MSC v.1915 32 bit (Intel)] on win32
+from airtravel import Flight
+f = Flight("SN060")
+f = Flight("060")
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+  File "C:/Users/****/Desktop/python-psq/pspyfundamentals/classes\airtravel.py", line 8, in __init__
+    raise ValueError("No airline code in'{}'".format(number))
+ValueError: No airline code in'060'
+f = Flight("sn060")
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+  File "C:/Users/****/Desktop/python-psq/pspyfundamentals/classes\airtravel.py", line 11, in __init__
+    raise ValueError("Invalid airline code '{}'".format(number))
+ValueError: Invalid airline code 'sn060'
+f = Flight("SNabcd")
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+  File "C:/Users/****/Desktop/python-psq/pspyfundamentals/classes\airtravel.py", line 14, in __init__
+    raise ValueError("Invalid route number '{}'".format(number))
+ValueError: Invalid route number 'SNabcd'
+f = Flight("SN12345")
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+  File "C:/Users/****/Desktop/python-psq/pspyfundamentals/classes\airtravel.py", line 14, in __init__
+    raise ValueError("Invalid route number '{}'".format(number))
+ValueError: Invalid route number 'SN12345'
+
+
+
+# Use the below in the Python Console with airtravel.py
+
+from airtravel import *
+a = Aircraft("G-EUPT", "Airbus A319", num_rows=222, num_seats_per_row=6)
+a.registration()
+'G-EUPT'
+a.model()
+'Airbus A319'
+a.seating_plan()
+(range(1, 223), 'ABCDEF')
