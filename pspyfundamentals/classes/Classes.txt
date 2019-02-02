@@ -213,3 +213,82 @@ f.num_available_seats()
 127
 g.num_available_seats()
 491
+
+Inheritance and Implementation Sharing
+
+* Inheritance
+-* A sub-class can derive from a base-class, inheriting its
+   behavior and making behavior specific to the sub-class.
+# Python uses late binding
+# In Python inheritance is most useful for sharing implementation
+
+# Again use the below in the Python Console
+
+from airtravel import *
+a = AirbusA319("G-EZBT")
+a.num_seats()
+132
+b = Boeing777("N717AN")
+b.num_seats()
+495
+
+Classes Summary
+
+* All types in Python have a 'class'
+* Classes define the structure and behavior of an object
+* Class is determined when object is created
+-* normally fixed for the lifetime
+* Classes are the key support for Object-Oriented Programming
+  in Python
+* Classes defined using the 'class' keyword followed by
+  CamelCase name
+* Class instances created by calling the class as if it were
+  a function
+* Instance methods are functions defined inside the class
+-* Should accept an object instance called 'self' as the
+   first parameter
+* Methods are called using 'instance.method()'
+-* Syntactic sugar for passing 'self' instance to method
+* The optional __init__() method initialized new instances
+-* If present, the constructor calls __init__()
+-* __init__() is not the constructor
+
+* Instance attributes are created simply by assigning to them
+* Implementation details are denoted bya leading underscore
+-* There are no public, protected or private access modifiers
+   in Python
+* Accessing implementation details can be very useful
+-* Especially during development and debugging
+* Class variants should be established in the initialzer
+-* If the invariants can't be established raise exceptions
+   to signal failure
+* Methods can have docstrings, just like regular functions
+* Class can have docstrings
+* Even within an object method calls must be preceded with 'self'
+* You can have as many classes and functions in a module as
+  you wish
+-* Related classes and global functions are usually grouped
+   together this way
+* Polymorphism in Python is achieved through duck typing
+* Polymorphism in Python does not use shared base classes
+  or interfaces
+* Class inheritance is primarily useful for sharing
+  implementation
+
+* Strings support slicing, because they implement the sequence
+  protocol
+* Following the Law of Demeter can reduce coupling
+* We can nest comprehensions
+* It can sometimes be useful to discard the current item in a
+  comprehension
+* When dealing with one-based collections it's often easier
+  just to waste one list entry.
+* Don't feel compelled to use classes when a simple function
+  will suffice
+* Comprehensions or generator expression can be split over
+  multiple lines
+* Statements can be split over multiple lines uses backslash
+-* Use this feature sparingly and only when it improves
+   readability
+* Use "Tell! Don't ask." to avoid tight coupling between
+  objects
