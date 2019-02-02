@@ -187,3 +187,29 @@ f.make_boarding_cards(console_card_printer)
 | Name: Richard Hickey  Flight: BA758  Seat: 1D  Aircraft: Airbus A319 |
 +                                                                      |
 +----------------------------------------------------------------------+
+
+Polymorphism
+
+* Using objects of different types through a common interface
+# The card printer was polymorphic
+# Polymorphism is achieved through :
+Duck Typing "The Duck Test":
+"When I see a bird that walks like a duck and swims like a duck
+and quacks like a duck, I call that bird a duck."
+- James Whitcomb Riley
+
+# An objects fitness for purpose is determined at the time of use.
+  i.e. at runtime
+
+# Again use the below in the Python Console
+
+from airtravel import *
+f, g = make_flights()
+f.aircraft_model()
+'Airbus A319'
+g.aircraft_model()
+'Boeing 777'
+f.num_available_seats()
+127
+g.num_available_seats()
+491
