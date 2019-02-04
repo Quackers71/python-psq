@@ -1,0 +1,12 @@
+Files and Resource Management
+
+open() # open a file
+# file: path to file (required)
+# mode: read/write/append, binary/text
+# encoding: text encoding
+
+* Text File Access
+# < encode = write()
+# > decode = read()
+
+https://docs.python.org/3/library/codecs.html#standard-encodings
