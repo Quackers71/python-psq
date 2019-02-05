@@ -12,6 +12,13 @@ open() # open a file
 https://docs.python.org/3/library/codecs.html#standard-encodings
 
 Files as Iterators
-# see files.py
+# Using files.py - In the Terminal run :
+:   python files.py wasteland.txt
 
 
+Managing Files with Try..Finally
+# Using recaman.py - In the Terminal run :
+:   python recaman.py recaman.dat 1000
+
+# Using series.py - In the Terminal run :
+:   python series.py recaman.dat
