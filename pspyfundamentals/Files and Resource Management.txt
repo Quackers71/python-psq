@@ -10,3 +10,8 @@ open() # open a file
 # > decode = read()
 
 https://docs.python.org/3/library/codecs.html#standard-encodings
+
+Files as Iterators
+# see files.py
+
+
