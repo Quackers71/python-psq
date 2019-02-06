@@ -39,3 +39,6 @@ Moments of Zen
 - sweet fidelity
     with EXPR as VAR:
         BLOCK
+
+Binary files
+* Device independent bitmaps
