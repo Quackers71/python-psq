@@ -22,3 +22,11 @@ Managing Files with Try..Finally
 
 # Using series.py - In the Terminal run :
 :   python series.py recaman.dat
+
+Context Managers and with-blocks
+
+f = open()
+#  work work work
+f.close()
+
+with-block # resource cleanup with context-managers
