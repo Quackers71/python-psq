@@ -30,3 +30,12 @@ f = open()
 f.close()
 
 with-block # resource cleanup with context-managers
+
+Moments of Zen
+
+* Beautiful is better than ugly
+- Sugary syntax
+- fewer defects attained through
+- sweet fidelity
+    with EXPR as VAR:
+        BLOCK
