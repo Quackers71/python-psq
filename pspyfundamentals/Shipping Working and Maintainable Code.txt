@@ -1,0 +1,52 @@
+Shipping Working and Maintainable Code
+
+* Python standard library comes with the 'unittest' module
+ - unit tests
+ - integration tests
+ - acceptance tests
+
+* unittest - automated & repeatable
+
+ -* TestCase
+   - Groups together related test functions
+    - Basic unit of test organization in 'unittest'
+
+ -* Fixtures
+   - code run before and/or after each test function
+    - tear-down / clean-up fixture
+
+ -* Assertion
+   - Specific test for conditions and behaviors
+    - simple boolean checks # x.is_valid()
+    - equality tests        # x == y
+    - Verify propper exceptions are thrown
+        raise ValueError()
+
+ - If an Assertion fails, then a test fails.
+
+* Test-Driven Development
+ - take filename argument
+ - read file
+ - calculate lines and characters
+
+# In the Terminal run :
+:
+Microsoft Windows [Version 6.3.9600]
+(c) 2013 Microsoft Corporation. All rights reserved.
+
+C:\Users\***\Desktop\python-psq\pspyfundamentals>python text_analyzer.py
+E
+======================================================================
+ERROR: test_function_runs (__main__.TextAnalysisTest)
+Basic smoke test: does the function run.
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "text_analyzer.py", line 9, in test_function_runs
+    analyze_text()
+NameError: name 'analyze_text' is not defined
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (errors=1)
+
