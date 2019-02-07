@@ -56,3 +56,18 @@ Fractal images
 >>> bmp.write_grayscale('mandel.bmp', pixels)
 >>> ^D
 $ open mandel.bmp
+
+Reading Binary Files
+
+# Using bmp.py & mandel.bmp - In the Terminal run :
+:
+>>> import bmp
+>>> bmp.dimensions('mandel.bmp')
+(448, 256)
+>>>
+
+File like Objects
+
+* loosely-defined set of behaviors for things that act like files
+# If it looks like a file and reads like a file, then it is a file.
+
