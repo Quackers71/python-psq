@@ -71,3 +71,28 @@ File like Objects
 * loosely-defined set of behaviors for things that act like files
 # If it looks like a file and reads like a file, then it is a file.
 
+Closing with Context Managers
+
+# Using fridge.py - In the Terminal run :
+:
+>>> from fridge import raid
+>>> raid('bacon')
+Open fridge door.
+Finding bacon...
+Taking bacon
+Close fridge door.
+>>> raid('deep fried pizza')
+Open fridge door.  # ***** NOT GOOD *****
+Finding deep fried pizza...
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\***\Desktop\python-psq\pspyfundamentals\fridge.py", line 22, in raid
+    r.take(food)
+  File "C:\Users\***\Desktop\python-psq\pspyfundamentals\fridge.py", line 12, in take
+    raise RuntimeError("Health warning!")
+RuntimeError: Health warning!
+>>>
+
+
+
+
