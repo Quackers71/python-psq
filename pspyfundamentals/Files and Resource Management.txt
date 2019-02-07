@@ -42,3 +42,17 @@ Moments of Zen
 
 Binary files
 * Device independent bitmaps
+
+Bitwise Operators
+Fractal images
+
+# Using bmp.py & fractal.py - In the Terminal run :
+:
+>>> import fractal
+>>> pixels = fractal.mandelbrot(448, 256)
+>>> print(pixels)
+
+>>> import bmp
+>>> bmp.write_grayscale('mandel.bmp', pixels)
+>>> ^D
+$ open mandel.bmp
