@@ -86,3 +86,25 @@ $ python -m pdb palindrome.py
 
 # Ran pdb.set_trace() function
 # Ran 3 tests in 0.001s
+
+Virtual Environments
+* light-weight, self-contained Python installation
+* venv - with the standard library module
+
+# In the Terminal run :
+:
+C:\Users\***\Desktop\python-psq>python -m venv
+usage: venv [-h] [--system-site-packages] [--symlinks | --copies] [--clear]
+            [--upgrade] [--without-pip] [--prompt PROMPT]
+            ENV_DIR [ENV_DIR ...]
+venv: error: the following arguments are required: ENV_DIR
+# or
+https://pypi.org/project/virtualenv/
+
+# Create a venv5 environment
+python -m venv venv5
+venv5\Scripts\activate # for Windows
+source venv5\Scripts\activate # for Linux
+(venv5) $ deactivate
+$
+
