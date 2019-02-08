@@ -83,3 +83,6 @@ $ python -m pdb palindrome.py
 (Pdb) cont
 (Pdb) list
 (Pdb) return
+
+# Ran pdb.set_trace() function
+# Ran 3 tests in 0.001s
