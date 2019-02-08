@@ -102,9 +102,106 @@ venv: error: the following arguments are required: ENV_DIR
 https://pypi.org/project/virtualenv/
 
 # Create a venv5 environment
-python -m venv venv5
-venv5\Scripts\activate # for Windows
-source venv5\Scripts\activate # for Linux
-(venv5) $ deactivate
-$
+> python -m venv venv5
+> venv5\Scripts\activate # for Windows
+$ source venv5\Scripts\activate # for Linux
+(venv5) > deactivate
+>
 
+> Setup the palindrome_env environment
+> python -m venv palindrome_env
+> palindrome_env\Scripts\activate
+$
+(palindrome_env) C:\Users\***\Desktop\python-psq\pspyfundamentals\palindrome>python setup.py instal
+l
+C:\Python37\lib\distutils\dist.py:259: UserWarning: 'licence' distribution option is deprecated; use 'license'
+  warnings.warn(msg)
+running install
+running build
+running build_py
+creating build
+creating build\lib
+copying palindrome.py -> build\lib
+running install_lib
+copying build\lib\palindrome.py -> C:\Users\***\Desktop\python-psq\pspyfundamentals\palindrome\pali
+ndrome_env\Lib\site-packages
+byte-compiling C:\Users\***\Desktop\python-psq\pspyfundamentals\palindrome\palindrome_env\Lib\site-
+packages\palindrome.py to palindrome.cpython-37.pyc
+running install_egg_info
+Writing C:\Users\***\Desktop\python-psq\pspyfundamentals\palindrome\palindrome_env\Lib\site-package
+s\palindrome-1.0-py3.7.egg-info
+
+(palindrome)> cd ..
+(palindrome)> python
+>>> import palindrome
+>>> palindrome.__file__
+'C:\\Users\\***\\Desktop\\python-psq\\pspyfundamentals\\palindrome.py'
+>>> ^Z
+(palindrome)> cd palindrome
+(palindrome)>
+
+
+Packaging to a Source Distribution with 'distutils'
+
+(palindrome)> deactivate
+> python setup.py sdist --format zip
+C:\Python37\lib\distutils\dist.py:259: UserWarning: 'licence' distribution option is deprecated; use 'license'
+  warnings.warn(msg)
+running sdist
+running check
+warning: check: missing required meta-data: url
+
+warning: sdist: manifest template 'MANIFEST.in' does not exist (using default file list)
+
+warning: sdist: standard file not found: should have one of README, README.txt, README.rst
+
+writing manifest file 'MANIFEST'
+creating palindrome-1.0
+making hard links in palindrome-1.0...
+hard linking palindrome.py -> palindrome-1.0
+hard linking setup.py -> palindrome-1.0
+creating dist
+creating 'dist\palindrome-1.0.zip' and adding 'palindrome-1.0' to it
+adding 'palindrome-1.0\palindrome.py'
+adding 'palindrome-1.0\PKG-INFO'
+adding 'palindrome-1.0\setup.py'
+removing 'palindrome-1.0' (and everything under it)
+
+> dir
+02/08/2019  04:54 PM    <DIR>          dist
+> cd dist
+$ unzip palindrome-1.0.zip
+Archive:  palindrome-1.0.zip
+  inflating: palindrome-1.0/palindrome.py
+  inflating: palindrome-1.0/PKG-INFO
+  inflating: palindrome-1.0/setup.py
+$ ll
+total 4
+drwxr-xr-x 1 RQarikau 1049089    0 Feb  8 16:57 palindrome-1.0/
+-rw-r--r-- 1 RQarikau 1049089 1350 Feb  8 16:54 palindrome-1.0.zip
+
+>python setup.py sdist --help-formats
+C:\Python37\lib\distutils\dist.py:259: UserWarning: 'licence' distribution option is deprecated; use 'license'
+  warnings.warn(msg)
+List of available source distribution formats:
+  --formats=bztar  bzip2'ed tar-file
+  --formats=gztar  gzip'ed tar-file
+  --formats=tar    uncompressed tar file
+  --formats=xztar  xz'ed tar-file
+  --formats=zip    ZIP file
+  --formats=ztar   compressed tar file
+
+
+Installing Packages * with pip
+
+* Python >= 3.4 Includes pip (by default)
+https://packaging.python.org/
+# Python Package Index (PyPI) or "CheeseShop"
+
+* The "CheeseShop" is a famous sketch by Monty Python -
+  and a nickname for the "Python Package Index".
+* A "wheel" of cheese - also the name of a Python
+  binary package format.
+
+https://pypi.org/
+# installing "nose" with "pip"

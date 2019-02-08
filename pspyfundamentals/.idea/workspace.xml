@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="720c1456-d672-4dab-a22f-3882f713254b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Shipping Working and Maintainable Code.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Shipping Working and Maintainable Code.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,19 +15,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Shipping Working and Maintainable Code.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="108" column="1" lean-forward="true" selection-start-line="108" selection-start-column="1" selection-end-line="108" selection-end-column="1" />
+            <state relative-caret-position="555">
+              <caret line="207" lean-forward="true" selection-start-line="207" selection-end-line="207" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/palindrome.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/palindrome/palindrome.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -99,13 +94,16 @@
         <option value="$PROJECT_DIR$/Files and Resource Management.txt" />
         <option value="$PROJECT_DIR$/text_analyzer.py" />
         <option value="$PROJECT_DIR$/palindrome.py" />
+        <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/Shipping Working and Maintainable Code.txt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="960" />
-    <option name="height" value="1040" />
+    <option name="x" value="159" />
+    <option name="y" value="54" />
+    <option name="width" value="1443" />
+    <option name="height" value="938" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -122,6 +120,11 @@
             <path>
               <item name="pspyfundamentals" type="b2602c69:ProjectViewProjectNode" />
               <item name="pspyfundamentals" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pspyfundamentals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pspyfundamentals" type="462c0819:PsiDirectoryNode" />
+              <item name="palindrome" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pspyfundamentals" type="b2602c69:ProjectViewProjectNode" />
@@ -278,12 +281,12 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.WordsPerLine" />
-      <item itemvalue="Python.bmpCopy" />
-      <item itemvalue="Python.bmp" />
-      <item itemvalue="Python.files" />
-      <item itemvalue="Python.fractal" />
       <item itemvalue="Python.words" />
+      <item itemvalue="Python.files" />
+      <item itemvalue="Python.bmp" />
+      <item itemvalue="Python.bmpCopy" />
+      <item itemvalue="Python.fractal" />
+      <item itemvalue="Python.WordsPerLine" />
     </list>
     <recent_temporary>
       <list>
@@ -332,7 +335,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49947312" weight="0.3286334" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32980132" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49841937" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49841937" weight="0.3347779" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5015806" side_tool="true" weight="0.3347779" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3275488" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -352,14 +355,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/listrepetition.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reversing-and-sorting-lists" />
     <entry file="file://$PROJECT_DIR$/shallowcopies.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -669,14 +664,24 @@
     <entry file="file://$PROJECT_DIR$/palindrome.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/palindrome/palindrome.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Shipping Working and Maintainable Code.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="108" column="1" lean-forward="true" selection-start-line="108" selection-start-column="1" selection-end-line="108" selection-end-column="1" />
+        <state relative-caret-position="555">
+          <caret line="207" lean-forward="true" selection-start-line="207" selection-end-line="207" />
         </state>
       </provider>
     </entry>
