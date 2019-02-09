@@ -1,0 +1,19 @@
+Prerequisites
+
+* Working Python environment
+* Access to a REPL
+* Need to know :
+- Defining functions
+- Passing arguments
+- Returning values
+- Creating, importing and executing modules
+- Built-in types - int, float, str, list, dict & set
+- Basic Python object model
+- Raising and handling exceptions
+- Iterables and Iterators
+- Classes with methods
+- Reading and writing text and binary files
+- Unit-testing, Debugging & Deployment
+- Terminology: special methods on objects i.e.
+  '__<meth name>__' known as "dunder" or double underscore
+  __len__ "dunder-len"
