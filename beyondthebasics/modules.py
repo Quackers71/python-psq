@@ -41,10 +41,17 @@ print("\nsys.path[-5:] :", sys.path[-5:])
 
 # Python Path
 # - Environment variable listing paths added to sys.path
-# - In 'Git Bash' run - $ export PYTHONPATH=not_searched
-# $ python
+# - On Linux use -          $ export PYTHONPATH=not_searched
+# - On Windows use - MSDOS  > set PYTHONPATH=not_searched
+
+# C:\Users\***\Desktop\python-psq\beyondthebasics>set PYTHONPATH=not_searched
+#
+# C:\Users\***\Desktop\python-psq\beyondthebasics>python
+# Python 3.7.1 (v3.7.1:260ec2c36a, Oct 20 2018, 14:57:15) [MSC v.1915 64 bit (AMD64)] on win32
+# Type "help", "copyright", "credits" or "license" for more information.
 # >>> import sys
 # >>> [p for p in sys.path if 'not_searched' in p]
+# ['C:\\Users\\***\\Desktop\\python-psq\\beyondthebasics\\not_searched']
 # >>> import path_test
 # >>> path_test.found()
 # Python found me!
