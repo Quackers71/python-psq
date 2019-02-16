@@ -1,3 +1,5 @@
+from reader.reader import Reader
+
 print('reader is being imported')
 
 # C:\Users\***\Desktop\python-psq\beyondthebasics>python
