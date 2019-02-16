@@ -1,0 +1,9 @@
+Python - Package Review
+
+1. Packages are modules that contain other modules
+2. Packages are generally implemented as directories
+   containing a special __init__.py file.
+3. The __init__.py file is executed when the package
+   is imported
+4. Packages can contain sub packages which themselves
+   are implemented with __init__.py files is directories.

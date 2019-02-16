@@ -14,4 +14,4 @@ if __name__ == '__main__':
 # >>> import reader.compressed
 # >>> import reader.compressed.gzipped
 # >>> import reader.compressed.bzipped
-# >>> 
+# >>>
