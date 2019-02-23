@@ -1,0 +1,38 @@
+Absolute Imports
+
+# imports which use a full path to the module
+# i.e. from reader.reader import Reader
+
+Relative Imports
+
+# imports which use a relative path to modules
+  in the same package (top level packages)
+# i.e. from .reader import Reader
+
+e.g.
+
+from ..a import A
+from .b import B
+
+farm/
+|-- __init.py
+|-- bird/
+|   |-- __init__.py
+|   |-- chicken.py
+|   |-- turkey.py
+|-- bovine/
+    |-- __init__.py
+    |-- cow.py
+    |-- ox.py
+    |-- common.py
+
+from .common import ruminate
+# or use
+from . import common
+
+Relative Imports Summary
+
+# 1. Can reduce typing in deeply nested package structures
+# 2. Promote certain forms of modifiability
+# 3. Can aid package renaming and refactoring
+# 4. General advice is to avoid them in most cases
