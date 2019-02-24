@@ -1,0 +1,41 @@
+Namespace Packages
+# packages split across several directories
+# Useful for splitting large packages into multiple parts
+# Defined in PEP420
+# Namespace packages have no __init__.py
+# This avoids complex initialization ordering problems.
+# 1. Python scans all entries in sys.path.
+# 2. If a matching directory with __init__.py is
+#    found, a normal package is loaded.
+# 3. If foo.py is found, then it is loaded.
+# 4. Otherwise, all matching directories is sys.path
+#    are considered part of the namespace package.
+
+path1
+|---split_farm
+    |---bovine
+        |---__init__.py
+        |---common.ps
+        |---cow.py
+        |---ox.py
+        |---string.py
+
+path2
+|---split_farm
+    |---bird
+        |---__init__.py
+        |---chicken.py
+        |---turkey.py
+
+>>> import sys
+>>> sys.path.extend(['path1', 'path2'])
+>>> import split_farm
+>>> split_farm.__path__
+_NamespacePath(['path1/split_farm', 'path2/split_farm'])
+>>> import split_farm.bird
+>>> import split_farm.bovine
+>>> split_farm.bird.__path__
+['path2/split_farm/bird']
+>>> split_farm.bovine.__path__
+['path1/split_farm/bovine']
+>>>
