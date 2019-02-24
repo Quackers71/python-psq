@@ -11,10 +11,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Recommended project structure.txt">
+        <entry file="file://$PROJECT_DIR$/Duck-tails.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="357">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -51,6 +51,7 @@
         <option value="$PROJECT_DIR$/reader/reader/__main__.py" />
         <option value="$PROJECT_DIR$/executable-directories.txt" />
         <option value="$PROJECT_DIR$/Recommended project structure.txt" />
+        <option value="$PROJECT_DIR$/Duck-tails.txt" />
       </list>
     </option>
   </component>
@@ -329,6 +330,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Duck-tails.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>

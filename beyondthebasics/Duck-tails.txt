@@ -1,0 +1,21 @@
+Duck tails: Modules Are Singletons
+# Tales of Real-World Python
+# - Better in Practice than in theory -
+# Just like Duck Typing.
+
+# Modules are only executed once, when first imported
+# Module Initialisation order is well defined
+
+_registry.py
+def register(name):
+    _registry.append(name)
+
+def registered_names():
+    return iter(_registry)
+
+use_registry.py
+import registry
+
+registry.register('my name')
+for name in registry.registered_names():
+    print(name)
