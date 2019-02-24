@@ -1,2 +1,8 @@
+Executable directories
+# directories containing an entry point for Python execution
 
+(beyondthebasics) \reader>python reader
+executing __main__.py with name __main__
 
+Executable zip file
+# zip file containing an entry point for Python execution
