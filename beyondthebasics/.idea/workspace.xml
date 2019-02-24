@@ -11,10 +11,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Duck-tails.txt">
+        <entry file="file://$PROJECT_DIR$/Organizing Larger Programs Summary.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="34">
+              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -52,6 +52,7 @@
         <option value="$PROJECT_DIR$/executable-directories.txt" />
         <option value="$PROJECT_DIR$/Recommended project structure.txt" />
         <option value="$PROJECT_DIR$/Duck-tails.txt" />
+        <option value="$PROJECT_DIR$/Organizing Larger Programs Summary.txt" />
       </list>
     </option>
   </component>
@@ -337,6 +338,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Organizing Larger Programs Summary.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
         </state>
       </provider>
     </entry>
