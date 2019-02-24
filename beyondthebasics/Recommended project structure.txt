@@ -1,0 +1,13 @@
+Recommended project structure
+
+project_name
+|---__main__.py
+|---project_name
+|   |---_init__.py
+|   |---more_source.py
+|   |---subpackage1
+|   |   |---__init__.py
+|   |---test
+|       |---__init__.py
+|       |---test_cocde.py
+|---setup.py
